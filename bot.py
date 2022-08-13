@@ -30,6 +30,6 @@ async def on_message(message):
 		await message.channel.send(initiative_result.initiative())
 
 #Choose token for logining in discord API
-token = open('token.txt', 'r')
+token = open('test_token.txt', 'r')
 client.run(token.read())
 token.close()
